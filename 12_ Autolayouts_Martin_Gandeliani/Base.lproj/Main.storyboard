@@ -1,24 +1,244 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="24128" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="P20-vP-5fI">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="24063"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="_2__Autolayouts_Martin_Gandeliani" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vMF-X5-zl1">
+                                <rect key="frame" x="25" y="50.000000000000014" width="343" height="237.33333333333337"/>
+                                <color key="backgroundColor" systemColor="systemRedColor"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jMf-8U-38j">
+                                <rect key="frame" x="25" y="312.33333333333331" width="343" height="237.33333333333331"/>
+                                <color key="backgroundColor" systemColor="systemGreenColor"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NU2-eL-Pnb">
+                                <rect key="frame" x="25" y="574.66666666666663" width="343" height="237.33333333333337"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                            </view>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemTealColor"/>
+                        <constraints>
+                            <constraint firstItem="jMf-8U-38j" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="25" id="64h-yl-1ag"/>
+                            <constraint firstItem="vMF-X5-zl1" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="25" id="ONV-Gc-nY0"/>
+                            <constraint firstItem="jMf-8U-38j" firstAttribute="height" secondItem="vMF-X5-zl1" secondAttribute="height" id="PBd-mf-cRg"/>
+                            <constraint firstItem="jMf-8U-38j" firstAttribute="top" secondItem="vMF-X5-zl1" secondAttribute="bottom" constant="25" id="QIS-of-Fcw"/>
+                            <constraint firstItem="vMF-X5-zl1" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="50" id="Wnn-m7-uBy"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="NU2-eL-Pnb" secondAttribute="trailing" constant="25" id="aD2-yJ-cou"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="vMF-X5-zl1" secondAttribute="trailing" constant="25" id="j8S-w4-Qa4"/>
+                            <constraint firstItem="NU2-eL-Pnb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="25" id="lcj-9H-N3G"/>
+                            <constraint firstItem="NU2-eL-Pnb" firstAttribute="height" secondItem="vMF-X5-zl1" secondAttribute="height" id="oP1-XT-EKU"/>
+                            <constraint firstItem="NU2-eL-Pnb" firstAttribute="top" secondItem="jMf-8U-38j" secondAttribute="bottom" constant="25" id="utG-d4-6RZ"/>
+                            <constraint firstAttribute="bottom" secondItem="NU2-eL-Pnb" secondAttribute="bottom" constant="40" id="veb-9e-nk1"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="jMf-8U-38j" secondAttribute="trailing" constant="25" id="w4I-17-Hd5"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-640.4580152671756" y="93.661971830985919"/>
+        </scene>
+        <!--Second View Controller-->
+        <scene sceneID="oCo-ty-1iD">
+            <objects>
+                <viewController id="DhR-8v-vbp" customClass="SecondViewController" customModule="_2__Autolayouts_Martin_Gandeliani" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="m9m-I0-NZS">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Копия Chelsea-FC-Logo-emblem-football-club-Premier-League-transparent-PNG-image-jpg" translatesAutoresizingMaskIntoConstraints="NO" id="P6H-fH-g29">
+                                <rect key="frame" x="126.66666666666669" y="123" width="140" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="8nZ-NY-4SJ"/>
+                                    <constraint firstAttribute="width" constant="140" id="BWd-1F-jcV"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="NBW-PN-1LH">
+                                <rect key="frame" x="121.66666666666669" y="123.66666666666667" width="150" height="148.66666666666669"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="NBW-PN-1LH" secondAttribute="height" multiplier="1:1" id="IuB-T6-QkK"/>
+                                    <constraint firstAttribute="height" constant="150" id="dbN-l4-9ao"/>
+                                    <constraint firstAttribute="width" constant="150" id="fff-Eo-wD4"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ET8-lX-epq">
+                                <rect key="frame" x="25" y="351" width="66.666666666666671" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="News"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0QW-7c-DgJ">
+                                <rect key="frame" x="257.33333333333331" y="351" width="110.66666666666669" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Get Tickets">
+                                    <color key="baseBackgroundColor" systemColor="systemMintColor"/>
+                                </buttonConfiguration>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to the official Chelsea Football Club page" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="peH-fr-r3f">
+                                <rect key="frame" x="33" y="280" width="327.33333333333331" height="16"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="ZUI-Kc-Nz0"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="peH-fr-r3f" firstAttribute="top" secondItem="P6H-fH-g29" secondAttribute="bottom" constant="7" id="AXH-nd-dy8"/>
+                            <constraint firstItem="peH-fr-r3f" firstAttribute="centerX" secondItem="m9m-I0-NZS" secondAttribute="centerX" id="Dpd-2P-7QS"/>
+                            <constraint firstItem="P6H-fH-g29" firstAttribute="top" secondItem="m9m-I0-NZS" secondAttribute="top" constant="123" id="Q2q-UZ-8bG"/>
+                            <constraint firstItem="NBW-PN-1LH" firstAttribute="top" secondItem="m9m-I0-NZS" secondAttribute="top" constant="122.99999999999996" id="Xm5-dZ-a2X"/>
+                            <constraint firstItem="0QW-7c-DgJ" firstAttribute="top" secondItem="peH-fr-r3f" secondAttribute="bottom" constant="55" id="ZwC-lg-7ci"/>
+                            <constraint firstItem="ET8-lX-epq" firstAttribute="top" secondItem="peH-fr-r3f" secondAttribute="bottom" constant="55" id="awG-fZ-LFB"/>
+                            <constraint firstItem="P6H-fH-g29" firstAttribute="centerX" secondItem="m9m-I0-NZS" secondAttribute="centerX" id="dYF-AF-J2T"/>
+                            <constraint firstItem="NBW-PN-1LH" firstAttribute="centerX" secondItem="m9m-I0-NZS" secondAttribute="centerX" id="e3R-hD-sdM"/>
+                            <constraint firstItem="ET8-lX-epq" firstAttribute="leading" secondItem="ZUI-Kc-Nz0" secondAttribute="leading" constant="25" id="lh4-Nx-g25"/>
+                            <constraint firstItem="ZUI-Kc-Nz0" firstAttribute="trailing" secondItem="0QW-7c-DgJ" secondAttribute="trailing" constant="25" id="tKk-Yk-dPJ"/>
+                            <constraint firstItem="peH-fr-r3f" firstAttribute="centerX" secondItem="m9m-I0-NZS" secondAttribute="centerX" id="ucV-o7-pdi"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nvn-e2-ISj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="307.63358778625951" y="93.661971830985919"/>
+        </scene>
+        <!--Third View Controller-->
+        <scene sceneID="Zqd-OC-4KU">
+            <objects>
+                <viewController title="Third View Controller" id="P20-vP-5fI" customClass="ThirdViewController" customModule="_2__Autolayouts_Martin_Gandeliani" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="sB6-2o-AZd">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Chelsea_FC_with_Donald_Trump_at_the_2025_FIFA_Club_World_Cup_final" translatesAutoresizingMaskIntoConstraints="NO" id="zL6-up-W0k">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="248"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="248" id="hx9-7c-L2U"/>
+                                    <constraint firstAttribute="height" constant="248" id="vOr-3Z-oLW"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="U6o-Qc-xid">
+                                <rect key="frame" x="121.66666666666669" y="179.66666666666669" width="150" height="148.66666666666669"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="150" id="LX3-ow-t8d"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="150" id="RWQ-d6-ovj"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Копия Chelsea-FC-Logo-emblem-football-club-Premier-League-transparent-PNG-image-jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Lnr-eh-yvE">
+                                <rect key="frame" x="127" y="189" width="139" height="130"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="130" id="1FZ-AA-nNl"/>
+                                    <constraint firstAttribute="width" constant="139" id="siP-ff-aAs"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chelsea Football Club" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JLb-BH-J82">
+                                <rect key="frame" x="108" y="337" width="177" height="21"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="🔵" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yj2-P6-gTs">
+                                <rect key="frame" x="106" y="386" width="33" height="35"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="🏟️" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lDQ-BG-1iO">
+                                <rect key="frame" x="254" y="386" width="33" height="35"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="⚽️" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="stw-uK-Slk">
+                                <rect key="frame" x="180" y="386" width="33" height="34.666666666666686"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8FO-1k-dm8">
+                                <rect key="frame" x="96.666666666666686" y="459" width="49" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" image="square.and.arrow.up" catalog="system"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q1j-lD-9Yb">
+                                <rect key="frame" x="168.66666666666666" y="458.66666666666669" width="56" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" image="camera.shutter.button.fill" catalog="system" title=""/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UBS-I3-tmV">
+                                <rect key="frame" x="247.66666666666666" y="459" width="50.666666666666657" height="34"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" image="paperplane" catalog="system" title=""/>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="E24-yk-bzo"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="JLb-BH-J82" firstAttribute="top" secondItem="U6o-Qc-xid" secondAttribute="bottom" constant="8" id="0bp-Wk-X28"/>
+                            <constraint firstItem="Q1j-lD-9Yb" firstAttribute="centerX" secondItem="sB6-2o-AZd" secondAttribute="centerX" id="3eE-kW-gBf"/>
+                            <constraint firstItem="Lnr-eh-yvE" firstAttribute="centerY" secondItem="U6o-Qc-xid" secondAttribute="centerY" id="6c8-Yj-oFr"/>
+                            <constraint firstItem="U6o-Qc-xid" firstAttribute="centerX" secondItem="sB6-2o-AZd" secondAttribute="centerX" id="GSU-7H-WAz"/>
+                            <constraint firstItem="UBS-I3-tmV" firstAttribute="top" secondItem="lDQ-BG-1iO" secondAttribute="bottom" constant="38" id="GhS-8d-jlO"/>
+                            <constraint firstItem="stw-uK-Slk" firstAttribute="top" secondItem="JLb-BH-J82" secondAttribute="bottom" constant="28" id="L5S-7n-cAe"/>
+                            <constraint firstItem="lDQ-BG-1iO" firstAttribute="top" secondItem="JLb-BH-J82" secondAttribute="bottom" constant="28" id="Mfq-vi-l8C"/>
+                            <constraint firstItem="Q1j-lD-9Yb" firstAttribute="top" secondItem="stw-uK-Slk" secondAttribute="bottom" constant="38" id="NnO-6J-lR4"/>
+                            <constraint firstItem="zL6-up-W0k" firstAttribute="leading" secondItem="E24-yk-bzo" secondAttribute="leading" id="NsL-Hc-7lP"/>
+                            <constraint firstItem="UBS-I3-tmV" firstAttribute="leading" secondItem="Q1j-lD-9Yb" secondAttribute="trailing" constant="23" id="Sb4-23-hms"/>
+                            <constraint firstItem="lDQ-BG-1iO" firstAttribute="leading" secondItem="stw-uK-Slk" secondAttribute="trailing" constant="41" id="UAK-0d-Oxr"/>
+                            <constraint firstItem="zL6-up-W0k" firstAttribute="top" secondItem="sB6-2o-AZd" secondAttribute="top" id="WSi-x6-7vN"/>
+                            <constraint firstItem="stw-uK-Slk" firstAttribute="leading" secondItem="yj2-P6-gTs" secondAttribute="trailing" constant="41" id="Z1P-iz-KxF"/>
+                            <constraint firstItem="U6o-Qc-xid" firstAttribute="top" secondItem="sB6-2o-AZd" secondAttribute="top" constant="179" id="bAp-D7-fXo"/>
+                            <constraint firstItem="8FO-1k-dm8" firstAttribute="top" secondItem="yj2-P6-gTs" secondAttribute="bottom" constant="38" id="bGD-nH-BUJ"/>
+                            <constraint firstItem="stw-uK-Slk" firstAttribute="centerX" secondItem="sB6-2o-AZd" secondAttribute="centerX" id="c8D-hv-Xde"/>
+                            <constraint firstItem="yj2-P6-gTs" firstAttribute="top" secondItem="JLb-BH-J82" secondAttribute="bottom" constant="28" id="jqB-lR-Af5"/>
+                            <constraint firstItem="JLb-BH-J82" firstAttribute="centerX" secondItem="sB6-2o-AZd" secondAttribute="centerX" id="kCw-zd-rpX"/>
+                            <constraint firstItem="Lnr-eh-yvE" firstAttribute="centerX" secondItem="U6o-Qc-xid" secondAttribute="centerX" id="kkY-7N-KF5"/>
+                            <constraint firstItem="zL6-up-W0k" firstAttribute="trailing" secondItem="E24-yk-bzo" secondAttribute="trailing" id="v6h-CF-hZl"/>
+                            <constraint firstItem="Q1j-lD-9Yb" firstAttribute="leading" secondItem="8FO-1k-dm8" secondAttribute="trailing" constant="23" id="w2l-xm-92I"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x3a-Fd-9bT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1394.6564885496182" y="93.661971830985919"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Chelsea_FC_with_Donald_Trump_at_the_2025_FIFA_Club_World_Cup_final" width="1200" height="800"/>
+        <image name="camera.shutter.button.fill" catalog="system" width="128" height="108"/>
+        <image name="circle" catalog="system" width="128" height="123"/>
+        <image name="paperplane" catalog="system" width="128" height="119"/>
+        <image name="square.and.arrow.up" catalog="system" width="110" height="128"/>
+        <image name="Копия Chelsea-FC-Logo-emblem-football-club-Premier-League-transparent-PNG-image-jpg" width="2000" height="2000"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemMintColor">
+            <color red="0.0" green="0.78431372549019607" blue="0.70196078431372544" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.55294117647058827" blue="0.15686274509803921" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.2196078431372549" blue="0.23529411764705882" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemTealColor">
+            <color red="0.0" green="0.76470588235294112" blue="0.81568627450980391" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
 </document>
